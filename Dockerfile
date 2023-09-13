@@ -2,4 +2,4 @@ FROM node:18
 COPY . /app
 WORKDIR /app
 RUN npm install
-CDM ["npm", "start"]
+CMD ["npm", "start"]
